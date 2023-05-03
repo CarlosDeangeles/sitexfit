@@ -1,0 +1,148 @@
+@charset "UTF-8";
+
+/*
+#E5E4E8
+#E9F414
+#F99C00
+#FA9D1A
+#000000
+*/
+
+:root {
+    --cor0: #E5E4E8;
+    --cor1: #E9F414;
+    --cor2: #F99C00;
+    --cor3: #FA9D1A;
+    --cor4: #000000;
+
+    --fonte-padrao: arial, verdana, helvetica, sans-serif;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif; 
+    background-color: var(--cor4); 
+    color: var(--cor4);
+    margin: 0px;
+ }
+
+ header {
+    background-image: linear-gradient(to bottom, gold, black);
+    height: 120px;
+    margin-bottom: 40px;
+ }
+
+ img {    
+    width: 180px;
+    height: 120px;
+    display: block;
+}
+
+ nav {
+    height: 50px;
+    padding: 5px;
+    text-align: right;
+}
+
+ nav > a {
+    font-size: 1em;
+    text-decoration: none;
+    color:gold;
+    font-weight: bold;
+    padding: 5px;
+    margin: 10px;
+    border-radius: 5px;
+    transition-duration: 0.5s ; 
+}
+
+ nav > a:hover {
+    background-color:gold;
+    color: white;
+    padding: 5px;
+    text-decoration: underline;
+}
+
+ main {
+    background-color: lightgrey;
+    
+    padding: 10px 0px 10px 0px;
+    margin: auto;
+}
+
+main p {
+    margin: 10px;
+    text-align: justify;
+    text-indent: 30px;
+    font-size: 1.1em;
+    line-height: 2em;
+ }
+
+main > h2 {
+    background-image: linear-gradient(to right, gold, transparent);
+    padding: 5px;
+    margin: 10px;
+}
+
+main img {
+    width: 400px;
+    height: 250px;
+    margin-top: 5px;
+    border-radius: 5px;
+    display: inline;
+}
+ 
+ article {
+    background-color: rgba(0, 0, 0, 0.699);
+    max-width: 900px;
+    min-width: 350px;
+    padding: 5px;
+    margin: auto
+    
+}
+
+ article > p {
+    color: white;
+}
+
+ div {
+    background-color: #000000;
+    
+    margin: auto;
+    width: 450px;
+}
+
+ aside {
+     background-color: rgba(218, 165, 32, 0.164);
+     max-width: 900px;
+     min-width: 350px;
+     margin: auto;
+     margin-top: 20px;
+}
+
+aside p {
+    margin: 0px;
+    font-weight:bolder;    
+    background-image: linear-gradient(to right, gold, transparent);
+    
+}
+
+ footer {
+     background-color: gold;
+     text-align: center;
+     font-size: 0.8em;
+     padding: 5px;
+}
+
+footer a {
+    color: #000000;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+    color: white;
+}
